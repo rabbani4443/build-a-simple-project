@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: #424141;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    width: 120px;
+}
+.menu-item{
+    display: flex;
+}
+.menu-list{
+    margin: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.menu-list:hover{
+    color: blue;
+    cursor: pointer;
+}

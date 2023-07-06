@@ -42,7 +42,7 @@
     background-size: cover;
     background-blend-mode: overlay;
 }
-.bannet-text-heading{
+.banner-text-heading{
     font-size: 55px;
     font-weight: bold;
 }
@@ -65,4 +65,108 @@
     cursor: pointer;
     transform: scale(1.1);
     transition:  all 500ms;
+}
+
+.about-us{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.about-container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* align-items: center; */
+    flex-direction:row-reverse;
+}
+.about-img{
+    width: 300px;
+}
+.about-text-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.about-but{
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about-but:hover{
+    /* background-color: rgb(197, 5, 5); */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:  all 500ms;
+}
+.our-service{
+    text-align: center;
+    padding: 20px 0px;
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.service-box{
+    width: 220px;
+    height: 320px;
+    border: 2px solid grey;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.service-box-icon{
+    width: 70px;
+    color: #2e2e2e;
+}
+.service-but{
+    padding: 10px 15px;
+    margin-top:20px;
+    outline: none;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.service-but:hover{
+    background-color: rgb(197, 175, 175);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:  all 500ms;
+}
+.service-box-heading{
+    padding: 10px;
+}
+.service-box-description{
+    padding: 5px;
+    font-size: 18px;
+}
+.service-box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.services-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
 }

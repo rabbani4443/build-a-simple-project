@@ -26,3 +26,43 @@
     color: blue;
     cursor: pointer;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.bannet-text-heading{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.banner-but{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.banner-but:hover{
+    /* background-color: rgb(197, 5, 5); */
+    background-color: beige;
+    color: #000;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:  all 500ms;
+}

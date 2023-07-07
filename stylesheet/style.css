@@ -20,10 +20,11 @@
 .menu-list{
     margin: 10px;
     padding-right: 7px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .menu-list:hover{
-    color: blue;
+    color: gray;
     cursor: pointer;
 }
 .banner-img{
@@ -51,16 +52,17 @@
     margin: 15px 0px;
 }
 .banner-but{
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-size: 18px;
+    /* font-weight: bold; */
 }
 .banner-but:hover{
     background-color: beige;
-    color: #000;
+    color: black;
     cursor: pointer;
     transform: scale(1.1);
     transition:  all 500ms;
@@ -175,7 +177,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 100px 100px;
+    padding: 100px 100px 60px 100px;
 }
 .footer-logo{
     width: 170px;
@@ -212,5 +214,17 @@ padding: 5px 10px;
     text-decoration: none;
     font-size: 16px;
     color: white;
-
+}
+hr{
+    width: 75%;
+    margin: auto;
+    border: 1px solid gray;
+}
+.copy{
+    background-color: #000;
+    color: white;
+}
+.copy p{
+    text-align: center;
+    padding: 25px;
 }
